@@ -5,39 +5,40 @@
 
 <div align="center">
 
+  ![GitHub package.json version](https://img.shields.io/github/package-json/v/rogerinn/hermes?color=blue&label=version&style=flat-square)
+  ![npm](https://img.shields.io/npm/v/hermes-queue?color=blue&style=flat-square)
+  ![GitHub repo size](https://img.shields.io/github/repo-size/rogerinn/hermes?color=blue&style=flat-square)
+  ![GitHub issues](https://img.shields.io/github/issues-raw/rogerinn/hermes?color=blue&style=flat-square)
+  ![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/rogerinn/hermes?color=blue&style=flat-square)
+
 Hermes is a **modular framework** for node.js to make gRPC APIs.
 
 We follow a *documentation first* philosophy, with the objective of *quality delivery* focusing on the *developer’s experience*.<br /> Hermes is a tool made *by devs for all devs*,
 ranging all the way **from college work to corporate level projects**.
 
 [Overview](#overview) •
-[Use cases](#use-cases) •
-[Architecture](#architecture)
+[Contributors](#contributors) •
+[External documentation](https://hermes-project-1.gitbook.io/untitled/)
 
-<h1 align="center">
- <img src="https://cdn.discordapp.com/attachments/638203747608166442/1037591811390197770/carbon_7.png" width="900">
- <br><br />
-</h1>
+<br />
+
+<img src="https://cdn.discordapp.com/attachments/638203747608166442/1037591811390197770/carbon_7.png" width="900">
+
+<br>
+
 </div>
 
 ## Table of contents
-- [Overview](#overview)
-- [Motivations and premises](#motivations-and-premises)
-    - [Motivations and premises](#motivations-and-premises)
-    - [Motivations and premises](#motivations-and-premises)
-- [Use cases](#use-cases)
-    - [Motivations and premises](#motivations-and-premises)
-    - [Motivations and premises](#motivations-and-premises)    
-- [Technologies used](#technologies-used)
-- [Branch flow](#branch-flow)
+- [Introduction](#introduction)
+- [Our motivations](#our-motivations)
 - [Architecture](#architecture)
-- [Design system](#design-system)
-- [Standard recommendations](#standard-recommendations)
-- [Roadmap](#roadmap)
+- [Branch flow](#branch-flow)
+- [Be a part of our comunity!](#be-a-part-of-our-community)
 - [Contributors](#contributors)
+- [We thank these people](#we-thank-these-people)
 
 
-## Overview
+## Introduction
 
 Hermes is a modular framework for node.js based on gRPC that works as a Message Oriented Middleware (MOM) by using the Observable pattern, functioning as the observer between publisher and subscriber communication.
 
@@ -50,11 +51,46 @@ Hermes' core features, being fully compatible with gRPC, are:
 - High Performance
 - Trustworthy APIs
 
-## Motivations and premises
+<br>
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+<img align="center" src="https://cdn.discordapp.com/attachments/1073325852256907304/1073345451669074020/observer1.png" width="900">
+
+<br>
+
+## Our motivations
+
+Our motivation is to turn coding into a more pleasant experience for the developer by making the process simpler, centralized, and better optimized.
+
+## Architecture
+
+<img align="center" src="https://cdn.discordapp.com/attachments/1073325852256907304/1073378211364356220/arch_test1.png" width="900">
+
+<br>
+
+## Branch flow
+
+<img align="center" src="https://cdn.discordapp.com/attachments/1073325852256907304/1073368645130006538/branch_flow.png" width="700">
+
+<br>
+
+<div align="center">
+
+## Be a part of our community!
+
+<a href=https://discord.gg/2SxVXAma><img src="https://cdn.discordapp.com/attachments/1073325852256907304/1073371852937904209/discord.png" width="400"></a>
+</div>
 
 ## Contributors
 
- - rogerinn - Rogério Junior.
- - Zorazzy  - Melissa Kilpp.
+  - [rogerinn](https://github.com/rogerinn) - Rogério Junior.
+  - [Zorazzy](https://github.com/zorazzy) - Melissa Kilpp
+
+## We thank these people
+
+- Andre Junior
+- Cibelli Oliveira
+- Gabriele Jorge
+- Gutem
+- Janaina Centini
+- Marcela Silva
+- Melissa Kilpp

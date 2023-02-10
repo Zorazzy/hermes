@@ -1,0 +1,25 @@
+name: "Publish npm package"
+
+on:
+    push:
+      branches:
+        - "master"
+
+jobs:
+    release:
+        name: Release
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v3.3.0
+            - name: 🟢 node
+              uses: actions/setup-node@v3
+              with:
+                  node-version: '16.x'
+                  registry-url: 'https://registry.npmjs.org'
+            - name: Configure npm
+              run: npm ci
+            - name: Publish
+              run: npm publish
+              env:
+                  NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}

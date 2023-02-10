@@ -1,0 +1,29 @@
+{
+  "name": "hermes-queue",
+  "version": "0.13.1",
+  "description": "Hermes is a modular framework for node.js to make gRPC APIs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogerinn/hermes.git"
+  },
+  "keywords": [
+    "grpc",
+    "nodejs",
+    "typescript",
+    "api",
+    "mensageria",
+    "message-broker",
+    "message-queue",
+    "framework"
+  ],
+  "author": "rogerinn | Zorazzy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogerinn/hermes/issues"
+  },
+  "homepage": "https://github.com/rogerinn/hermes#readme"
+}
