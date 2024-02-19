@@ -1,4 +1,3 @@
-
 <h1 align="center">
   <img src="https://media.discordapp.net/attachments/638203747608166442/1037551642482053150/hermes-logo-v.1.png" alt="Hermes" width="450">
 </h1>
@@ -16,7 +15,7 @@ Hermes is a **modular framework** for node.js to make gRPC APIs.
 We follow a *documentation first* philosophy, with the objective of *quality delivery* focusing on the *developer’s experience*.<br /> Hermes is a tool made *by devs for all devs*,
 ranging all the way **from college work to corporate level projects**.
 
-[Overview](#overview) •
+[Introduction](#introduction) •
 [Contributors](#contributors) •
 [External documentation](https://hermes-project-1.gitbook.io/untitled/)
 
@@ -31,6 +30,9 @@ ranging all the way **from college work to corporate level projects**.
 ## Table of contents
 - [Introduction](#introduction)
 - [Our motivations](#our-motivations)
+- [Why should you use Hermes?](#why-should-you-use-hermes)
+- [Features](#features)
+- [Technologies used](#technologies-used)
 - [Architecture](#architecture)
 - [Branch flow](#branch-flow)
 - [Be a part of our comunity!](#be-a-part-of-our-community)
@@ -42,7 +44,13 @@ ranging all the way **from college work to corporate level projects**.
 
 Hermes is a modular framework for node.js based on gRPC that works as a Message Oriented Middleware (MOM) by using the Observable pattern, functioning as the observer between publisher and subscriber communication.
 
-By acting simultaneously as **the bridge for publisher and subscriber communication** and as **the notifications' handler**, Hermes removes the need for a connection with a third party for sending and receiving messages, centralizing and simplifying these functionalities.
+By acting simultaneously as **the bridge for publisher and subscriber communication** and as **the notification handler**, Hermes removes the need for a connection with a third party for sending and receiving messages, centralizing and simplifying these functionalities.
+
+<br>
+
+<img align="center" src="https://cdn.discordapp.com/attachments/1073325852256907304/1073345451669074020/observer1.png" width="900">
+
+<br>
 
 Hermes' core features, being fully compatible with gRPC, are:
 
@@ -53,13 +61,90 @@ Hermes' core features, being fully compatible with gRPC, are:
 
 <br>
 
-<img align="center" src="https://cdn.discordapp.com/attachments/1073325852256907304/1073345451669074020/observer1.png" width="900">
-
-<br>
-
 ## Our motivations
 
 Our motivation is to turn coding into a more pleasant experience for the developer by making the process simpler, centralized, and better optimized.
+
+The main premises Hermes was based on are:
+
+- **DX (Development Experience)**
+- **Security**
+- **Scalability**
+- **Optimization**
+
+<br>
+
+## Why should you use Hermes?
+
+### **Development cost**
+
+- Usually, in the making of an API, you'd need to integrate a variety of different tools. Not with Hermes! What you have is what you need. Hermes' architecture is decoupled, making integrations a whole lot easier. Never again spend your precious time on unnecessarily complicated processes.
+
+### **Contract automation**
+
+- No need to build manually any machine-to-machine communication. Hermes is fully automated.
+
+### **Security**
+
+- You are safe with us! Hermes was thought out for security: its security module is programmed with Rust to reduce memory issues and common vulnerabilities. Plus, all communication is encrypted and authenticated with symmetrical signatures.
+
+### **Compatibility**
+
+- Compatible with ***ANY*** systems: desktop, web, mobile, embedded. You are the boss!
+
+### **Availability**
+
+- Hermes has many functionalities to ensure 24/7 availability for all your needs, including (but not limited to) **monitoring, health check, health point, and logging**. You will never be left in the dark.
+
+### **Productivity**
+
+- Hermes will save you time, money, and stress *(we all know we need it)*.
+
+### **Scalability**
+
+- Hermes has native integration with tools for CI/CD and cluster control. This way, you can automate the build process of gRPC APIs and server applications.<br>
+With only a few clicks, you can scale your application and avoid the dreadful problems of timeout or too many simultaneous users.
+
+### **Extensibility with native and/or third party tools**
+
+- Think of Hermes not as a marriage but as a "friends with benefits" relationship.<br>
+You'll have a compilation of all features and functionalities needed at your disposal with no strings attached. Operate Hermes by itself or with external assistance alongside it, use it as it is or go crazy with customizations: your experience is what matters.
+
+<br>
+
+<u>*If you are unhappy after your experience with Hermes, we will give you all your money back!</u> (Obs. We are open source)*
+
+<br>
+
+## Features
+
+- **Authentication**
+- **Caching**
+- **Logging**
+- **Throttling**
+- **Debouncing**
+- **Message-broker**
+- **Health check**
+- **Health point**
+- **Protobuf compiler**
+- **Server-client implementation**
+- **Server-side streaming**
+
+<br>
+
+## Technologies used
+| Technologies                                            | How we used them                                                                                                                  | Version        |
+| :---                                                    |:---                                                                                                                               |:---:           |
+| [TypeScript](https://www.typescriptlang.org/docs/)      | Sole language used in the structuring of the library, architecture, communication, type checking, and functionality exporting     | latest version |
+| [NodeJs](https://nodejs.org/en/docs/)                   | Base language for Hermes                                                                                                          | latest version |
+| [gRPC](https://grpc.io/docs/what-is-grpc/introduction/) | RPC communication mechanism                                                                                                       | latest version |
+| [ProtoBuf](https://protobuf.dev/programming-guides/)    | Contract creation mechanism for machine-to-machine communication                                                                  | latest version |
+| [RxJs](https://rxjs.dev/guide/overview)                 | Notification and observer handling tool                                                                                           | latest version |
+| [Redis](https://redis.io/docs/)                         | Cache management tool                                                                                                             | latest version |
+| [Rust](https://doc.rust-lang.org/std/index.html)        | Employed in the writing of the security modules, compilators, multithreading, and memory management                               | latest version |
+| [NPM](https://docs.npmjs.com/)                          | Package and library publishing                                                                                                    | latest version |
+| [GitHub Actions](https://docs.github.com/en/actions)    | CI/CD pipeline and version monitoring                                                                                             | latest version |
+<br>
 
 ## Architecture
 
@@ -77,7 +162,7 @@ Our motivation is to turn coding into a more pleasant experience for the develop
 
 ## Be a part of our community!
 
-<a href=https://discord.gg/2SxVXAma><img src="https://cdn.discordapp.com/attachments/1073325852256907304/1073371852937904209/discord.png" width="400"></a>
+<a href=https://discord.gg/WGkKMmz6zD><img src="https://cdn.discordapp.com/attachments/1073325852256907304/1073371852937904209/discord.png" width="400"></a>
 </div>
 
 ## Contributors
